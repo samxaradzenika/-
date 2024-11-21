@@ -138,7 +138,7 @@ docker-compose build <service_name>
 ### Troubleshooting
 - Verify network connectivity
 - Check container logs for startup issues
-- Ensure all environment variables are set
+- Ensure all environment variables are set at the root level
 - Confirm no port conflicts
 
 ### Performance Optimization
