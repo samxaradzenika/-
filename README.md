@@ -92,9 +92,9 @@ npm install
 ### 3. Configure Environment
 Copy and modify environment files:
 ```bash
-cp frontend/.env.example frontend/.env
-cp management-server/.env.example management-server/.env
-cp simulation-server/.env.example simulation-server/.env
+cp .env.example packages/frontend/.env
+cp .env.example packages/management-server/.env
+cp .env.example packages/simulation-server/.env
 ```
 
 ### 4. Development Servers
